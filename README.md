@@ -27,3 +27,10 @@ The command `which bash` shows where the bash is.
 - `read -a names` will read a series entries as array elements
 - `read` will read into a default variable called $REPLY.
 
+
+[video4](https://www.youtube.com/watch?v=BjBBfmDRakg&list=PLS1QulWo1RIYmaxcEqw5JhK3b-6rgdWO_&index=4):
+
+- pass arguments.
+- `$@`: collects all the arguments in an array other than the file name
+- `$0`: is the file name
+- `$#`: is the number of arguments other than the file name
