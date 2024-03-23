@@ -20,3 +20,10 @@ The command `which bash` shows where the bash is.
 - when defining variables there should not be any space before and after = sign.
 - no variable can begin with a number.
 
+[video3](https://www.youtube.com/watch?v=AcSkkNAsGCY&list=PLS1QulWo1RIYmaxcEqw5JhK3b-6rgdWO_&index=3):
+
+- user input with read command in the same line. `read -p "enter name: " user_var`.
+- user input with read commad in silent mode: `read -sp "enter name: " user_var`
+- `read -a names` will read a series entries as array elements
+- `read` will read into a default variable called $REPLY.
+
