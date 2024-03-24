@@ -72,3 +72,18 @@ if statement: The following rules in the statement is applied
     [ n1 -gt n2 ]  (true if n1 greater then n2, else false)
     [ n1 -lt n2 ]  (true if n1 less then n2, else false)
 
+[video 6]()
+
+`echo -e "Enter the name of the file : \c"` to keep the cursor in the same line after echoing text.
+`cat > test` writes some text into test.
+
+file test operators:
+
+    - -e checks the existence of a file in the if statement
+    - -f file exists and it is a reqular file or not
+    - -d directory exists 
+    - -c if a character special file exists
+    - -b if a block special file exists 
+    - -s if the file is empty or not
+
+
